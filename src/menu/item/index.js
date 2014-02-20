@@ -1,8 +1,8 @@
 
-var DomEmitter = require('dom-emitter')
-  , classes = require('classes')
-  , domify = require('domify')
-  , text = require('text')
+var DomEmitter = require('jkroso-dom-emitter')
+  , classes = require('component-classes')
+  , domify = require('component-domify')
+  , text = require('jkroso-text')
 
 module.exports = Item
 

@@ -1,11 +1,26 @@
 {
-	"name": "contextmenu",
-	"version": "0.1.0",
-	"author": {
-		"name": "Jakeb Rosoman",
-		"email": "jkroso@gmail.com"
-	},
-	"devDependencies": {},
-	"dependencies": {},
-	"keywords": []
+  "name": "jkroso-contextmenu",
+  "description": "A contextmenu interface",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "styles": [
+    "src/menu/item/item.css",
+    "src/menu/menu.css",
+    "src/contextmenu.css"
+  ],
+  "dependencies": {
+    "jkroso-sum": "git://github.com/npmcomponent/jkroso-sum.git",
+    "jkroso-text": "git://github.com/npmcomponent/jkroso-text.git",
+    "jkroso-detect": "git://github.com/npmcomponent/jkroso-detect.git",
+    "jkroso-position": "git://github.com/npmcomponent/jkroso-position.git",
+    "jkroso-dom-event": "git://github.com/npmcomponent/jkroso-dom-event.git",
+    "jkroso-satellite": "git://github.com/npmcomponent/jkroso-satellite.git",
+    "jkroso-dom-emitter": "git://github.com/npmcomponent/jkroso-dom-emitter.git",
+    "jkroso-computed-style": "git://github.com/npmcomponent/jkroso-computed-style.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-css": "git://github.com/npmcomponent/component-css.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-max": "git://github.com/npmcomponent/component-max.git"
+  }
 }

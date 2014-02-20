@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [jkroso/contextmenu](http://github.com/jkroso/contextmenu). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/jkroso-contextmenu`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # ContextMenu
 
   ContextMenu interface component. It enables you to quickly and fluently construct a contextmenu from javascript. All behaviour users expect from a contextmenu is build it. When a user selects an item it emits an event on the context node (the one that had the contextmenu triggered within). Thats all. This is a departure from other implementations which will house a set of handlers internally. Emitting dom events is simpler and offers greater opportunity for composition.

@@ -1,12 +1,12 @@
 
-var style = require('computed-style')
-  , Satellite = require('satellite')
-  , inherit = require('inherit')
-  , detect = require('detect')
+var style = require('jkroso-computed-style')
+  , Satellite = require('jkroso-satellite')
+  , inherit = require('component-inherit')
+  , detect = require('jkroso-detect')
   , Item = require('./item')
-  , max = require('max')
-  , sum = require('sum')
-  , css = require('css')
+  , max = require('component-max')
+  , sum = require('jkroso-sum')
+  , css = require('component-css')
 
 exports = module.exports = Menu
 

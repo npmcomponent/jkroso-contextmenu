@@ -1,10 +1,10 @@
 
 var Menu = require('./menu')
-  , customEvent = require('dom-event').custom
-  , DomEmitter = require('dom-emitter')
-  , position = require('position')
-  , classes = require('classes')
-  , domify = require('domify')
+  , customEvent = require('jkroso-dom-event').custom
+  , DomEmitter = require('jkroso-dom-emitter')
+  , position = require('jkroso-position')
+  , classes = require('component-classes')
+  , domify = require('component-domify')
 
 module.exports = ContextMenu
 
